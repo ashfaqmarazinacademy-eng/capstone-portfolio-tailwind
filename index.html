@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portfolio</title>
+
+  <!-- <link rel="stylesheet" href="/assets/css/style.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+
+</head>
+
+<body class="bg-gray-200">
+  <header class="sticky top-0">
+    <nav class="flex bg-white py-[1rem] px-[2rem] justify-between align-middle">
+      <div class="logo text-blue-700 font-black text-xl">LOGO</div>
+      <div class="nav-links">
+        <ul class="flex gap-4 font-semibold text-lg">
+          <li class="mx-2"><a href="#hero">Home</a></li>
+          <li class="mx-2"><a href="#about-me">About</a></li>
+          <li class="mx-2"><a href="#skills">Skills</a></li>
+          <li class="mx-2"><a href="#timeline">Experience</a></li>
+          <li class="mx-2"><a href="#service">Services</a></li>
+          <li class="mx-2"><a href="#blog">Blog</a></li>
+          <li class="mx-2"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero bg-fuchsia-600 flex gap-25 p-25 justify-center items-center" id="hero">
+      <div class="hero-text text-white grid gap-6 w-100">
+        <h1 class="text-5xl font-bold">Hi, I'm <span class="text-yellow-300">Mohamed Ashfaq</span></h1>
+        <p>Full Stack Developer | Web Developer | Tech Enthusiast</p>
+        <div class="hero-buttons flex gap-4">
+          <button class="btn-hire bg-white text-fuchsia-600 px-4 py-2 rounded-4xl border-none">Hire Me</button>
+          <button class="btn-services px-4 py-2 border-2 border-white rounded-4xl">My Services</button>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="/assets/img/hero_img.jpg" alt="" class="rounded-[50%] w-75 h-75 border-6 border-white object-cover" />
+      </div>
+    </section>
+
+    <section class="about-me p-8" id="about-me">
+      <div
+        class="section-heading mb-12 after:content-[''] after:bg-fuchsia-500 after:h-1 after:left-[46%] after:top-12 after:w-[8%] relative after:absolute after:rounded-4xl">
+        <h1 class="text-4xl font-bold text-center">About Me</h1>
+      </div>
+
+      <div class="about-content grid grid-cols-2 items-center gap-8 ">
+        <div class="about-text text-justify grid gap-3 ">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            molestiae harum reprehenderit error! Officia sed corporis sit
+            perferendis vel beatae necessitatibus ad, consectetur, quo at
+            aperiam ut Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            molestiae harum reprehenderit error! Officia sed corporis sit
+            perferendis vel beatae necessitatibus ad, consectetur, quo at
+            aperiam ut
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            molestiae harum reprehenderit error! Officia sed corporis sit
+            perferendis vel beatae necessitatibus ad, consectetur, quo at
+            aperiam ut Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            molestiae harum reprehenderit error! Officia sed corporis sit
+            perferendis vel beatae necessitatibus ad, consectetur, quo at
+            aperiam ut
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            molestiae harum reprehenderit error! Officia sed corporis sit
+            perferendis vel beatae necessitatibus ad, consectetur, quo at
+            aperiam ut Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            molestiae harum reprehenderit error! Officia sed corporis sit
+            perferendis vel beatae necessitatibus ad, consectetur, quo at
+            aperiam ut
+          </p>
+        </div>
+        <div class="about-cards flex justify-between ">
+          <div
+            class="card bg-fuchsia-600 p-4 w-50 h-50 text-white text-center font-medium text-md rounded-md flex flex-col justify-center">
+            <div class="num text-3xl font-bold">5+</div>
+            <div>Years Experience</div>
+          </div>
+          <div
+            class="card  bg-fuchsia-600 p-4 w-50 h-50 text-white text-center font-medium text-md rounded-md flex flex-col justify-center">
+            <div class="num text-3xl font-bold">10+</div>
+            <div>Projects Completed</div>
+          </div>
+          <div
+            class="card  bg-fuchsia-600 p-4 w-50 h-50 text-white text-center font-medium text-md rounded-md flex flex-col justify-center">
+            <div class="num text-3xl font-bold">8+</div>
+            <div>Satisfied Clients</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills p-8" id="skills">
+      <div class="section-heading mb-12 after:content-[''] after:bg-fuchsia-500 after:h-1 after:left-[46%] after:top-12 after:w-[8%] relative after:absolute after:rounded-4xl">
+        <h1 class="font-bold text-4xl text-center">Skills & Technologies</h1>
+      </div>
+
+      <div class="skill-cards grid grid-cols-4 gap-4">
+        <div class="skill-card text-center bg-white rounded-lg shadow-md p-6">
+          <div class="icon text-6xl"><i class="fa-brands fa-php"></i></div>
+          <div class="skill-desc">
+            <p class="skill-title font-bold">PHP</p>
+            <p class="text-gray-400">PHP is one of the most important programming language</p>
+          </div>
+          <div class="skill-bar bg-gray-200 h-2.5 rounded-2xl mt-6">
+            <div class="bar-fill bg-fuchsia-600 h-2.5 rounded-2xl " style="width: 45%"></div>
+          </div>
+        </div>
+        <div class="skill-card text-center bg-white rounded-lg shadow-md p-6">
+          <div class="icon text-6xl"><i class="fa-brands fa-php"></i></div>
+          <div class="skill-desc">
+            <p class="skill-title">PHP</p>
+            <p class="text-gray-400">PHP is one of the most important programming language</p>
+          </div>
+          <div class="skill-bar bg-gray-200 h-2.5 rounded-2xl mt-6">
+            <div class="bar-fill bg-fuchsia-600 h-2.5 rounded-2xl " style="width: 30%"></div>
+          </div>
+        </div>
+        <div class="skill-card text-center bg-white rounded-lg shadow-md p-6">
+          <div class="icon text-6xl"><i class="fa-brands fa-php"></i></div>
+          <div class="skill-desc">
+            <p class="skill-title">PHP</p>
+            <p class="text-gray-400">PHP is one of the most important programming language</p>
+          </div>
+          <div class="skill-bar bg-gray-200 h-2.5 rounded-2xl mt-6">
+            <div class="bar-fill bg-fuchsia-600 h-2.5 rounded-2xl " style="width: 50%"></div>
+          </div>
+        </div>
+        <div class="skill-card text-center bg-white rounded-lg shadow-md p-6">
+          <div class="icon text-6xl"><i class="fa-brands fa-php"></i></div>
+          <div class="skill-desc">
+            <p class="skill-title">PHP</p>
+            <p class="text-gray-400">PHP is one of the most important programming language</p>
+          </div>
+          <div class="skill-bar bg-gray-200 h-2.5 rounded-2xl mt-6">
+            <div class="bar-fill bg-fuchsia-600 h-2.5 rounded-2xl " style="width: 75%"></div>
+          </div>
+        </div>
+        <div class="skill-card text-center bg-white rounded-lg shadow-md p-6">
+          <div class="icon text-6xl"><i class="fa-brands fa-php"></i></div>
+          <div class="skill-desc">
+            <p class="skill-title">PHP</p>
+            <p class="text-gray-400">Advance PHP</p>
+          </div>
+          <div class="skill-bar bg-gray-200 h-2.5 rounded-2xl mt-6">
+            <div class="bar-fill bg-fuchsia-600 h-2.5 rounded-2xl " style="width: 60%"></div>
+          </div>
+        </div>
+        <div class="skill-card text-center bg-white rounded-lg shadow-md p-6">
+          <div class="icon text-6xl"><i class="fa-brands fa-php"></i></div>
+          <div class="skill-desc">
+            <p class="skill-title">PHP</p>
+            <p class="text-gray-400">Advance PHP</p>
+          </div>
+          <div class="skill-bar bg-gray-200 h-2.5 rounded-2xl mt-6">
+            <div class="bar-fill bg-fuchsia-600 h-2.5 rounded-2xl " style="width: 100%"></div>
+          </div>
+        </div>
+        <div class="skill-card text-center bg-white rounded-lg shadow-md p-6">
+          <div class="icon text-6xl"><i class="fa-brands fa-php"></i></div>
+          <div class="skill-desc">
+            <p class="skill-title">PHP</p>
+            <p class="text-gray-400">PHP is one of the most important programming language</p>
+          </div>
+          <div class="skill-bar bg-gray-200 h-2.5 rounded-2xl mt-6">
+            <div class="bar-fill bg-fuchsia-600 h-2.5 rounded-2xl " style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill-card text-center bg-white rounded-lg shadow-md p-6">
+          <div class="icon text-6xl"><i class="fa-brands fa-php"></i></div>
+          <div class="skill-desc">
+            <p class="skill-title">PHP</p>
+            <p class="text-gray-400">Advance PHP</p>
+          </div>
+          <div class="skill-bar bg-gray-200 h-2.5 rounded-2xl mt-6">
+            <div class="bar-fill bg-fuchsia-600 h-2.5 rounded-2xl " style="width: 65%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline p-8" id="timeline">
+      <div class="section-heading mb-12 after:content-[''] after:bg-fuchsia-500 after:h-1 after:left-[46%] after:top-12 after:w-[8%] relative after:absolute after:rounded-4xl">
+        <h1 class="font-bold text-4xl text-center">Experience Timeline</h1>
+      </div>
+
+      <div class="timeline-cards grid gap-4 before:content-[''] before:w-0.5 before:bg-fuchsia-500 before:left-[50.5%] before:bottom-0 before:top-0 relative before:absolute">
+        <div class="timeline-card flex gap-4 items-center odd:flex-row even:flex-row-reverse ml-35">
+          <div class="timeline-icon text-fuchsia-500 absolute left-[49.90%]">
+            <i class="fa-regular fa-circle-dot"></i>
+          </div>
+          <div class="timeline-text bg-white p-4 shadow-md rounded-md">
+            <p class="timeline-text-tile font-semibold">Senior Laravel Developer</p>
+            <p>2020 - present</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              repellendus.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-card flex gap-4 items-center odd:flex-row even:flex-row-reverse mr-30">
+          <div class="timeline-icon text-fuchsia-500 absolute left-[49.90%]">
+            <i class="fa-regular fa-circle-dot"></i>
+          </div>
+          <div class="timeline-text bg-white p-4 shadow-md rounded-md">
+            <p class="timeline-text-tile font-semibold">Senior Laravel Developer</p>
+            <p>2020 - present</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              repellendus.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-card flex gap-4 items-center odd:flex-row even:flex-row-reverse ml-35">
+          <div class="timeline-icon text-fuchsia-500 absolute left-[49.90%]">
+            <i class="fa-regular fa-circle-dot"></i>
+          </div>
+          <div class="timeline-text bg-white p-4 shadow-md rounded-md">
+            <p class="timeline-text-tile font-semibold">Senior Laravel Developer</p>
+            <p>2020 - present</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              repellendus.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="service p-8" id="service">
+
+      <div class="section-heading mb-12 after:content-[''] after:bg-fuchsia-500 after:h-1 after:left-[46%] after:top-12 after:w-[8%] relative after:absolute after:rounded-4xl">
+        <h1 class="text-4xl font-bold text-center">Service Offered</h1>
+      </div>
+
+      <div class="service-cards grid grid-cols-3 gap-4">
+        <div class="service-card bg-white shadow-md p-6 rounded-md text-center">
+          <div class="icon text-5xl"><i class="fa-brands fa-php"></i></div>
+          <div class="service-desc">
+            <p class="service-title">PHP</p>
+            <p>PHP is one of the most important programming language</p>
+          </div>
+        </div>
+        <div class="service-card bg-white shadow-md p-6 rounded-md text-center">
+          <div class="icon text-5xl"><i class="fa-brands fa-php"></i></div>
+          <div class="service-desc">
+            <p class="service-title">PHP</p>
+            <p>PHP is one of the most important programming language</p>
+          </div>
+        </div>
+        <div class="service-card bg-white shadow-md p-6 rounded-md text-center">
+          <div class="icon text-5xl"><i class="fa-brands fa-php"></i></div>
+          <div class="service-desc">
+            <p class="service-title">PHP</p>
+            <p>PHP is one of the most important programming language</p>
+          </div>
+        </div>
+        <div class="service-card bg-white shadow-md p-6 rounded-md text-center">
+          <div class="icon text-5xl"><i class="fa-brands fa-php"></i></div>
+          <div class="service-desc">
+            <p class="service-title">PHP</p>
+            <p>PHP is one of the most important programming language</p>
+          </div>
+        </div>
+        <div class="service-card bg-white shadow-md p-6 rounded-md text-center">
+          <div class="icon text-5xl"><i class="fa-brands fa-php"></i></div>
+          <div class="service-desc">
+            <p class="service-title">PHP</p>
+            <p>PHP is one of the most important programming language</p>
+          </div>
+        </div>
+        <div class="service-card bg-white shadow-md p-6 rounded-md text-center">
+          <div class="icon text-5xl"><i class="fa-brands fa-php"></i></div>
+          <div class="service-desc">
+            <p class="service-title">PHP</p>
+            <p>PHP is one of the most important programming language</p>
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+
+
+    </section>
+
+    <section class="blog p-8" id="blog">
+
+      <div class="section-heading mb-12 after:content-[''] after:bg-fuchsia-500 after:h-1 after:left-[46%] after:top-12 after:w-[8%] relative after:absolute after:rounded-4xl">
+        <h1 class="text-4xl font-bold text-center">Latest From Blog</h1>
+      </div>
+
+      <div class="blog-sub-head">
+        <p class="text-center mb-6">Visit blog for tutorials</p>
+      </div>
+
+      <div class="blog-cards grid grid-cols-3 gap-8">
+        <div class="blog-card bg-white shadow-md rounded-md h-70 overflow-hidden">
+
+          <div class="blog-image bg-fuchsia-500 text-center text-5xl h-[50%] grid place-items-center">
+            <i class="fa-brands fa-php"></i>
+          </div>
+
+          <div class="blog-text p-4 grid gap-2">
+            <div class="blog-text-content">
+              <p class="blog-text-content-title font-bold">Laravel Best Practices</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore totam nisi odio </p>
+            </div>
+            <div class="read-more text-blue-700 ml-3">
+              <a href="#">Read More</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="blog-card bg-white shadow-md rounded-md h-70 overflow-hidden">
+
+          <div class="blog-image bg-fuchsia-500 text-center text-5xl h-[50%] grid place-items-center ">
+            <i class="fa-brands fa-php"></i>
+          </div>
+
+          <div class="blog-text p-4 grid gap-2">
+            <div class="blog-text-content">
+              <p class="blog-text-content-title font-bold">Laravel Best Practices</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore totam nisi odio </p>
+            </div>
+            <div class="read-more text-blue-700 ml-3">
+              <a href="#">Read More</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="blog-card bg-white shadow-md rounded-md h-70 overflow-hidden">
+
+          <div class="blog-image bg-fuchsia-500 text-center text-5xl h-[50%] grid place-items-center">
+            <i class="fa-brands fa-php"></i>
+          </div>
+
+          <div class="blog-text p-4 grid gap-2">
+            <div class="blog-text-content">
+              <p class="blog-text-content-title font-bold">Laravel Best Practices</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore totam nisi odio </p>
+            </div>
+            <div class="read-more text-blue-700 ml-3">
+              <a href="#">Read More</a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+    </section>
+
+
+    <section class="contact p-8" id="contact">
+
+      <div class="section-heading mb-12 after:content-[''] after:bg-fuchsia-500 after:h-1 after:left-[46%] after:top-12 after:w-[8%] relative after:absolute after:rounded-4xl">
+        <h1 class="font-bold text-4xl text-center">Get In Touch</h1>
+      </div>
+
+      <div class="contact-form grid grid-cols-2 gap-8">
+        <form action="" method="get">
+          <div class="message-box grid gap-4">
+            <div class="subject grid gap-2">
+              <label for="" class="font-semibold">Subject</label>
+              <input type="text" placeholder="Name" class="bg-white p-2 rounded-md shadow-md">
+            </div>
+            <div class="message grid gap-2">
+              <label for="">Message</label>
+              <input type="text" placeholder="Message" class="bg-white p-2 rounded-md shadow-md h-32">
+            </div>
+            <button type="submit" class="bg-white p-2 rounded-md shadow-md font-semibold text-fuchsia-500">Send
+              Message</button>
+          </div>
+        </form>
+
+        <div class="email grid gap-4">
+          <div class="email-box bg-white shadow-md py-2 px-4 rounded-md">
+            <div class="card flex items-center gap-2 ">
+              <div class="email-icon text-fuchsia-500 text-2xl"><i class="fa-solid fa-envelope"></i></div>
+              <div class="email-text">
+                <p class="email-title font-semibold">Email</p>
+                <p class="email-add">mohamed@gmail.com</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="email-box bg-white shadow-md py-2 px-4 rounded-md">
+            <div class="card flex items-center gap-2 ">
+              <div class="email-icon text-fuchsia-500 text-2xl"><i class="fa-solid fa-envelope"></i></div>
+              <div class="email-text">
+                <p class="email-title font-semibold">Email</p>
+                <p class="email-add">mohamed@gmail.com</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="email-box bg-white shadow-md py-2 px-4 rounded-md">
+            <div class="card flex items-center gap-2 ">
+              <div class="email-icon text-fuchsia-500 text-2xl"><i class="fa-solid fa-envelope"></i></div>
+              <div class="email-text">
+                <p class="email-title font-semibold">Email</p>
+                <p class="email-add">mohamed@gmail.com</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="email-box bg-white shadow-md py-2 px-4 rounded-md">
+            <div class="card flex items-center gap-2 ">
+              <div class="email-icon text-fuchsia-500 text-2xl"><i class="fa-solid fa-envelope"></i></div>
+              <div class="email-text">
+                <p class="email-title font-semibold">Email</p>
+                <p class="email-add">mohamed@gmail.com</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="social-icons flex justify-center gap-4 mt-12">
+        <i class="fa-brands fa-threads"></i>
+        <i class="fa-brands fa-tumblr"></i>
+        <i class="fa-brands fa-bluesky"></i>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-section bg-fuchsia-500 text-center p-12 text-white">
+      <p>&copy;2024 Mohamed Ashfaq. All rights reserved.</p>
+      <p>Designed by <span class="font-bold text-yellow-300">Mohamed ASHFAQ</span></p>
+    </div>
+  </footer>
+</body>
+
+</html>
